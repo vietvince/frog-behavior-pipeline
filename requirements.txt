@@ -3,3 +3,7 @@ supervision
 opencv-python
 pandas
 pyyaml
+click
+streamlit
+streamlit-drawable-canvas
+pathlib
