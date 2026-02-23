@@ -8,7 +8,7 @@ This project aims to quantify parental care and detect recruitment-related behav
 - **Recruitment Events:** Success/failure of feeding coordination between parents.
 
 ## Tech Stack
-- **Detection and Trackig:** [YOLOv8](https://github.com/ultralytics/ultralytics) + [ByteTrack](https://github.com/ifzhang/ByteTrack)
+- **Detection and Tracking:** [YOLOv8](https://github.com/ultralytics/ultralytics) + [ByteTrack](https://github.com/ifzhang/ByteTrack)
 - **Spatial Analysis:** [Supervision](https://github.com/roboflow/supervision) for Region of Interest (ROI) mapping.
 - **Data Management:** [Pandas](https://pandas.pydata.org/) for biological metric logging.
 - **Development:** Python 3.10+ (Cross-platform: Linux/Windows).
