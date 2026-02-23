@@ -1,3 +1,24 @@
+# Environments
 venv/
-__pycache__/
+.env
+
+# IDEs
 .vscode/
+.idea/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+
+# Data
+src/data/raw/*
+src/data/processed/*
+!src/data/raw/.gitkeep
+!src/data/processed/.gitkeep
+
+# Models
+*.pt
+
+# System
+.DS_Store
+Thumbs.db
