@@ -18,13 +18,13 @@ Tracks complex social coordination and parent-offspring communication.
 ## Experimental Design & ROI Mapping
 The nursery setup consists of 5 primary Regions of Interest (ROIs). The pipeline automatically maps behavioral data to these specific experimental treatments:
 
-| ROI | Label | Experimental Condition | Description |
-| :--- | :--- | :--- | :--- |
-| **Cup 1** | Treatment A | **Parental (P)** | The parent's own biological offspring. |
-| **Cup 2** | Treatment B | **Foster (F)** | A non-biological (translocated) tadpole. |
-| **Cup 3** | Treatment C | **Parental (P)** | Duplicate biological offspring site. |
-| **Cup 4** | Treatment D | **Foster (F)** | Duplicate non-biological offspring site. |
-| **Shelter** | Home Base | **N/A** | Black film canister retreat for the parents. |
+| ROI | Label | R. variabilis Condition | R. imitator Condition | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **Cup 1** | Treatment A | **Parental (P)** | **Parental (P)** | Biological offspring site. |
+| **Cup 2** | Treatment B | **Parental (P)** | **Foster (F)** | Species-specific variable site. |
+| **Cup 3** | **Control** | **Empty (E)** | **Empty (E)** | Baseline occupancy; no tadpole present. |
+| **Cup 4** | Treatment D | **Parental (P)** | **Foster (F)** | Species-specific variable site. |
+| **Shelter**| Home Base | **N/A** | **N/A** | Parent retreat (black film canister). |
 
 ## Data Recording & Scoring Standards
 The pipeline strictly adheres to the Yang Lab "Dash vs. Comma" scoring protocol for seamless integration into research templates:
