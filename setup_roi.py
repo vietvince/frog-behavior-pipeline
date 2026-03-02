@@ -7,23 +7,23 @@ from PIL import Image
 
 st.set_page_config(page_title="Frog Pipeline - ROI Setup", layout="wide")
 
-st.markdown(
-    """
-    <style>
-    /* Invert Canvas Icons (Undo, Redo, Trash) to be visible on dark background */
-    button[title="Undo"], button[title="Redo"], button[title="Reset"], button[title="Trash"] {
-        filter: invert(100%) brightness(200%);
-    }
-    /* Hide the 'Deploy' button and Streamlit header */
-    header {visibility: hidden;}
-    #MainMenu {visibility: hidden;}
-    footer {visibility: hidden;}
-    /* Clean dark background */
-    .stApp { background-color: #0e1117; }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+# st.markdown(
+#     """
+#     <style>
+#     /* Invert Canvas Icons (Undo, Redo, Trash) to be visible on dark background */
+#     button[title="Undo"], button[title="Redo"], button[title="Reset"], button[title="Trash"] {
+#         filter: invert(100%) brightness(200%);
+#     }
+#     /* Hide the 'Deploy' button and Streamlit header */
+#     header {visibility: hidden;}
+#     #MainMenu {visibility: hidden;}
+#     footer {visibility: hidden;}
+#     /* Clean dark background */
+#     .stApp { background-color: #0e1117; }
+#     </style>
+#     """,
+#     unsafe_allow_html=True
+# )
 
 st.title("Nursery ROI Configuration Tool")
 
