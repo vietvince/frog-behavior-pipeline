@@ -6,7 +6,7 @@ This pipeline automates the labor-intensive process of scoring motion-activated 
 
 ### 1. R. variabilis Mode (Uniparental Focus)
 Focuses on paternal attendance and occupancy within experimental conditions.
-- **Parental Attendance:** Quantifies time spent by the father perching on the rim, inside, or immediately above a cup or the **Parent Shelter**.
+- **Parental Attendance:** Quantifies time spent by the father perching on the rim, inside, or immediately above a cup.
 - **Condition Monitoring:** Tracks male interaction with tadpoles to measure care effort across different treatment sites.
 
 ### 2. R. imitator Mode (Biparental & Recruitment Focus)
@@ -24,7 +24,6 @@ The nursery setup consists of 5 primary Regions of Interest (ROIs). The pipeline
 | **Cup 2** | Treatment B | **Parental (P)** | **Foster (F)** | Species-specific variable site. |
 | **Cup 3** | **Control** | **Empty (E)** | **Empty (E)** | Baseline occupancy; no tadpole present. |
 | **Cup 4** | Treatment D | **Parental (P)** | **Foster (F)** | Species-specific variable site. |
-| **Shelter**| Home Base | **N/A** | **N/A** | Parent retreat (black film canister). |
 
 ## Data Recording & Scoring Standards
 The pipeline strictly adheres to the Yang Lab "Dash vs. Comma" scoring protocol for seamless integration into research templates:
@@ -37,7 +36,7 @@ The pipeline strictly adheres to the Yang Lab "Dash vs. Comma" scoring protocol 
 ## Tech Stack
 - **Vision:** [YOLOv8](https://github.com/ultralytics/ultralytics) (Object Detection) & [ByteTrack](https://github.com/ifzhang/ByteTrack) (Individual Tracking)
 - **Interface:** [Streamlit](https://streamlit.io/) (For ROI/Cup Setup UI) & [Click](https://click.palletsprojects.com/) (For Batch Processing CLI)
-- **Spatial Analysis:** [Supervision](https://github.com/roboflow/supervision) (For ROI mapping of Cups 1-4 & Shelter)
+- **Spatial Analysis:** [Supervision](https://github.com/roboflow/supervision) (For ROI mapping of Cups 1-4)
 - **Temporal Logic:** Custom Python TimeDelta logic for "Dash vs. Comma" stay-duration aggregation.
 - **Behavioral Logic:** State-machine architecture to detect *R. imitator* feeding recruitment bouts and tadpole begging.
 - **Data Management:** [Pandas](https://pandas.pydata.org/) (Standardized Lab Excel/CSV output) & [PyYAML](https://pyyaml.org/) (Configuration Management)

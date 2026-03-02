@@ -1,0 +1,8 @@
+species: imitator
+session_type: fixed_camera
+rois:
+  cup_1: [520, 148, 908, 519]
+  cup_2: [1139, 182, 1515, 560]
+  cup_3: [483, 634, 860, 1008]
+  cup_4: [1143, 640, 1523, 1013]
+assignments: {cup_1: Parental, cup_2: Foster, cup_3: Control, cup_4: Foster}

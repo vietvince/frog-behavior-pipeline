@@ -1,0 +1,8 @@
+species: variabilis
+session_type: fixed_camera
+rois:
+  cup_1: [484, 142, 924, 583]
+  cup_2: [1070, 95, 1523, 555]
+  cup_3: [444, 720, 873, 1078]
+  cup_4: [1083, 608, 1523, 1062]
+assignments: {cup_1: Parental, cup_2: Parental, cup_3: Control, cup_4: Parental}
