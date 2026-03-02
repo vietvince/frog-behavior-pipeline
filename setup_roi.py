@@ -5,7 +5,6 @@ import os
 from streamlit_drawable_canvas import st_canvas
 from PIL import Image
 
-# 1. Page Configuration & Custom UI Fixes
 st.set_page_config(page_title="Frog Pipeline - ROI Setup", layout="wide")
 
 st.markdown(
@@ -28,8 +27,6 @@ st.markdown(
 
 st.title("Nursery ROI Configuration Tool")
 
-# 2. Species-Specific Assignment Rules
-# This ensures the YAML file automatically knows which cup is which
 ASSIGNMENT_RULES = {
     "variabilis": {
         "cup_1": "Parental",
@@ -80,9 +77,9 @@ else:
                 st.info(f"Drawing for **{selected_species}**. Order: Cup 1 (TL), 2 (TR), 3 (BL), 4 (BR).")
 
                 canvas_result = st_canvas(
-                    fill_color="rgba(0, 255, 0, 0.2)",
+                    fill_color="rgba(255, 0, 255, 0.2)",
                     stroke_width=2,
-                    stroke_color="#00FF00",
+                    stroke_color="#FF00FF",
                     background_image=img,
                     height=img.height,
                     width=img.width,
